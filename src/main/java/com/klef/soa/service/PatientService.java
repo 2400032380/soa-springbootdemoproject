@@ -8,7 +8,7 @@ public interface PatientService
 {
   Patient addPatient(Patient patient);
   List<Patient> displayAllPatients();
-  
+  Patient updatePatient(Patient p);
   
 
 }
